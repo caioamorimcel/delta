@@ -1,16 +1,7 @@
 <script>
-
-    function numero(a,b,c){
-        delta=(b*b-4*a*c)
-            if(delta>0){
-               return (-b+(delta))/2
-            }
-            else{
-               return "impossível"
-            }
-            
-    }
-    resultado = numero(1,10,3)
-	alert(resultado)
-
+	function functionDeltaCalculation(argA,argB,argC){
+		return argB*argB - 4*argA*argC;
+	}
+	const constResult = functionDeltaCalculation(1,10,3);
+	alert( constResult );
 </script>
