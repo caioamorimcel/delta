@@ -4,4 +4,6 @@
 	}
 	const constResult = functionDeltaCalculation(1,10,3);
 	alert( constResult );
+	
+	texto maluco
 </script>
